@@ -1,0 +1,133 @@
+       
+        :root {
+            --corPrm:#0c198e ;
+            --corSec:#444;
+            --tamanhoMargem: 15px;
+            --tamanhoFonte: 18px;
+        }
+
+        body {
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+        }
+
+        h1 {
+            font-size: 27px;
+            color: #0c198e;
+        }
+
+        h2 {
+            color: #444;
+        }
+
+        a {
+            color: #000000;
+            font-weight: bold;
+        }
+
+        img {
+            float: right;
+            /* margin: 20px;  */
+            /* margin-left: 20px; */
+            margin: 0 0 0 15px;
+
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: #444; */
+            border: 7px solid #444;
+
+            padding: 10px;
+            /* padding: 20px 50px; */
+
+        }
+
+        table{
+            border: 2px solid #444;
+        }
+        
+        td{
+            border: 2px solid #444;
+        }
+
+        th{
+            background-color: black;
+            color: white;
+        }
+
+        /* Pseudoclasse */
+
+        a:hover {
+            color:blue;
+        }
+
+        tr:hover {
+            background-color: #858080;
+        }
+
+        /*Seletor de tipo */
+
+        /*strong{
+            background-color: yellow;
+        }
+        */
+
+        /* strong, a{
+            background-color: yellow;
+        } */
+
+        /* Seletor de Descendentes*/
+
+        /* address strong {
+            background-color: yellow;
+        }
+         */
+        /* ul li a {
+            background-color: yellow;
+        } */
+
+        /*Seletor de filhos*/
+
+        /* ul>li>a{
+            background-color: yellow;
+        } */
+
+        /* address>a{
+            background-color: yellow;
+        } */
+
+        /*seletor de atributos*/
+
+        /* [href= "http://unisanta.br/"]{
+            background-color: yellow;
+        } */
+
+        /*wildcards*/
+
+        /* [href*="http://"]{
+            background-color: yellow;
+        } */
+
+        /*seletor de classe*/
+
+        /* a.link-especial {
+            background-color: yellow;
+        } */
+
+        /*Ranking de espeificidade*/
+
+        #titulo-exclusivo {
+            background-color: yellow;
+        }
+
+        /*ranking de especificidade*/
+        body {
+            background-color: green;
+        }
+
+        #id {
+            background-color: bisque;
+        }
+
+        .classe{
+            background-color: aquamarine;
+        }
